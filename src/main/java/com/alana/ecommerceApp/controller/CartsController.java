@@ -5,8 +5,8 @@ import static org.springframework.http.ResponseEntity.ok;
 
 import com.alana.CartApi;
 import com.alana.ecommerceApp.hateoas.CartRepresentationModelAssembler;
-import com.alana.ecommerceApp.Cart;
-import com.alana.ecommerceApp.Item;
+import com.alana.ecommerceApp.models.Cart;
+import com.alana.ecommerceApp.models.Item;
 import com.alana.ecommerceApp.service.CartService;
 
 import java.util.List;

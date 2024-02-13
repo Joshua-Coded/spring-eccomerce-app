@@ -5,10 +5,10 @@ import static org.springframework.http.ResponseEntity.notFound;
 import static org.springframework.http.ResponseEntity.ok;
 import static org.springframework.http.ResponseEntity.status;
 
-import ccom.alana.ecommerceApp.AddressApi;
+import com.alana.ecommerceApp.AddressApi;
 import com.alana.ecommerceApp.hateoas.AddressRepresentationModelAssembler;
-import com.alana.ecommerceApp.AddAddressReq;
-import com.alana.ecommerceApp.Address;
+import com.alana.ecommerceApp.models.AddAddressReq;
+import com.alana.ecommerceApp.models.Address;
 import com.alana.ecommerceApp.service.AddressService;
 import java.util.List;
 import javax.validation.Valid;
