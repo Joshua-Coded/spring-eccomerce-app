@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @athor Joshua Alana
  */
-
 @RestController
 public class CustomerController implements CustomerApi {
 
