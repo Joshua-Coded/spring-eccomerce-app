@@ -2,10 +2,10 @@ package com.alana.ecommerceApp.controller;
 
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.packt.modern.api.ProductApi;
-import com.packt.modern.api.model.Product;
-import com.packt.modern.api.hateoas.ProductRepresentationModelAssembler;
-import com.packt.modern.api.service.ProductService;
+import import com.alana.ecommerceApp.ProductApi;
+import import com.alana.ecommerceApp.model.Product;
+import import com.alana.ecommerceApp.hateoas.ProductRepresentationModelAssembler;
+import import com.alana.ecommerceApp.service.ProductService;
 import java.util.List;
 import javax.validation.Valid;
 import org.springframework.http.ResponseEntity;
