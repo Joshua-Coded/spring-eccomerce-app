@@ -39,7 +39,7 @@ public class OrderController implements OrderApi {
     public ResponseEntity<List<Order>> getOrdersByCustomerId(@NotNull @Valid String customerId) {
         return ok(assembler.toListModel(service.getOrdersByCustomerId(customerId)));
     }
-    
+
     @Override
     public ResponseEntity<Order> getByOrderId(String id) {
         return service.getByOrderId(id).map(assembler::toModel).map(ResponseEntity::ok)
