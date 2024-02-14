@@ -46,10 +46,10 @@ public class CardServiceImpl implements CardService {
     }
 
     private CardEntity toEntity(AddCardReq m) {
-        CardEntity entity = new CardEntity();
+        CardEntity e = new CardEntity();
         Optional<UserEntity> user = userRepo.findById(UUID.fromString(m.getUserId()));
-        user.ifPresent(u -> entity.setUser(u));
-        return entity.setNumber(m.getCardNumber()).setCvv(m.getCvv())
+        user.ifPresent(u -> e.setUser(u));
+        return e.setNumber(m.getCardNumber()).setCvv(m.getCvv())
                 .setExpires(m.getExpires());
     }
 }
