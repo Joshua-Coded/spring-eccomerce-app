@@ -4,10 +4,10 @@ import static java.util.stream.Collectors.toList;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.packt.modern.api.controller.CartsController;
-import com.packt.modern.api.entity.CartEntity;
-import com.packt.modern.api.model.Cart;
-import com.packt.modern.api.service.ItemService;
+import com.alana.ecommerceApp.controller.CartsController;
+import com.alana.ecommerceApp.entity.CartEntity;
+import com.alana.ecommerceApp.model.Cart;
+import com.alana.ecommerceApp.service.ItemService;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;

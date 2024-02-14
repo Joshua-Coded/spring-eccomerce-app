@@ -4,9 +4,9 @@ import static java.util.stream.Collectors.toList;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.packt.modern.api.controller.CardController;
-import com.packt.modern.api.entity.CardEntity;
-import com.packt.modern.api.model.Card;
+import com.alana.ecommerceApp.controller.CardController;
+import com.alana.ecommerceApp.entity.CardEntity;
+import com.alana.ecommerceApp.model.Card;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;

@@ -4,9 +4,9 @@ import static java.util.stream.Collectors.toList;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.packt.modern.api.controller.AddressController;
-import com.packt.modern.api.entity.AddressEntity;
-import com.packt.modern.api.model.Address;
+import com.alana.ecommerceApp.controller.AddressController;
+import com.alana.ecommerceApp.entity.AddressEntity;
+import com.alana.ecommerceApp.model.Address;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;

@@ -4,10 +4,10 @@ import static java.util.stream.Collectors.toList;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.packt.modern.api.controller.OrderController;
-import com.packt.modern.api.entity.OrderEntity;
-import com.packt.modern.api.model.Order;
-import com.packt.modern.api.service.ItemService;
+import com.alana.ecommerceApp.controller.OrderController;
+import com.alana.ecommerceApp.entity.OrderEntity;
+import com.alana.ecommerceApp.model.Order;
+import com.alana.ecommerceApp.service.ItemService;
 import java.time.ZoneOffset;
 import java.util.Collections;
 import java.util.List;
