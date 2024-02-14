@@ -1,19 +1,19 @@
 plugins {
-	id 'org.springframework.boot' version '2.3.5.RELEASE'
-	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
 	id 'java'
+	id 'org.springframework.boot' version '2.6.1'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'org.hidetake.swagger.generator' version '2.18.2'
 }
 
 group = 'com.alana'
 version = '0.0.1-SNAPSHOT'
 
-//java {
-//	sourceCompatibility = '1.18'
-//}
+sourceCompatibility = '17'
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+repositories {
+	maven { url 'https://repo.spring.io/milestone' }
+	mavenCentral()
+}
 
 
 swaggerSources {
@@ -38,12 +38,6 @@ swaggerSources {
 compileJava.dependsOn swaggerSources.eStore.code
 sourceSets.main.java.srcDir "${swaggerSources.eStore.code.outputDir}/src/main/java"
 sourceSets.main.resources.srcDir "${swaggerSources.eStore.code.outputDir}/src/main/resources"
-
-
-
-repositories {
-	mavenCentral()
-}
 
 dependencies {
 	// OpenAPI Starts
