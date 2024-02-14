@@ -1,4 +1,4 @@
-package com.packt.modern.api.exception;
+package com.alana.ecommerceApp.exception;
 
 /**
  * An enumeration of error codes and associated i18n message keys for order
