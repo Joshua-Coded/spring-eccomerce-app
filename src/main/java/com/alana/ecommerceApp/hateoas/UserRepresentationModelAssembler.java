@@ -59,7 +59,7 @@ public class UserRepresentationModelAssembler extends
      *
      * @param entities
      */
-    public List<User> toListModel(Iterable<UserEntity> entities) {
+    public List<Object> toListModel(Iterable<UserEntity> entities) {
         if (Objects.isNull(entities)) {
             return Collections.emptyList();
         }
