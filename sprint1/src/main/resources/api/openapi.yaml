@@ -1,15 +1,14 @@
 openapi: 3.0.3
 info:
-  title: Ecommerce App
+  title: Natal Stores
   description: >
-    'This is a ***sample ecommerce app API***.  You can find out more about Swagger at [swagger.io](http://swagger.io).
-    Description supports markdown markup. For example, you can use the `inline code` using back ticks.'
-  termsOfService: https://github.com/Joshua-Coded/spring-eccomerce-app
+    'This is a ***natal stores API***.'
+  termsOfService: https://github.com/Joshua-Coded/spring-eccomerce-app/LICENSE
   contact:
-    email: alanajoshua535@gmail.com
+    email: alanajoshua@gmail.com
   license:
     name: MIT
-    url: https://github.com/Joshua-Coded/spring-eccomerce-app
+    url: https://github.com/Joshua-Coded/spring-eccomerce-app/LICENSE
   version: 1.0.0
 externalDocs:
   description: Any document link you want to generate along with API.
@@ -36,8 +35,8 @@ tags:
     description: Operations about shippings
   - name: product
     description: Operations about products
-  - name: card
-    description: card operation
+  - name: card 
+    description: card operation 
 
 paths:
   /api/v1/carts/{customerId}:
@@ -568,8 +567,8 @@ paths:
     post:
       tags:
         - card
-      summary: Creates a  new card
-      description: Creates a new card. or replaces the existing one
+      summary: Creates a  new card 
+      description: Creates a new card. or replaces the existing one 
       operationId: registerCard
       requestBody:
         content:
