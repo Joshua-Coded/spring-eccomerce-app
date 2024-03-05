@@ -1,4 +1,4 @@
-package com.alana.ecommerceApp;
+package com.alana.modern.api;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

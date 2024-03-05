@@ -1,6 +1,6 @@
 {
   "library": "spring-mvc",
-  "dateLibrary": "java17",
+  "dateLibrary": "java8",
   "hideGenerationTimestamp": true,
   "modelPackage": "com.alana.modern.api.model",
   "apiPackage": "com.alana.modern.api",
